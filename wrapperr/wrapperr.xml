@@ -40,6 +40,6 @@
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="WebUI" Target="80" Default="580" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">580</Config>
-  <Config Name="Appdata" Target="/var/www/html/config" Default="/mnt/user/appdata/plex-wrapped" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/wrapperr</Config>
+  <Config Name="WebUI" Target="8282" Default="580" Mode="tcp" Description="Container Port: 8282" Type="Port" Display="always" Required="true" Mask="false">580</Config>
+  <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/plex-wrapped" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/wrapperr</Config>
 </Container>
